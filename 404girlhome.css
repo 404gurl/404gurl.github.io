@@ -1,0 +1,245 @@
+/* the girl in logo */
+h1 {
+ font-size: 20px;
+ font-family: 'Roboto Mono', monospace;
+ color: black;
+ padding-top: 25px;
+ padding-bottom: 0px;
+ padding-left: 66px;
+}
+/* the 404 in logo */
+span {
+  font-size: 37px;
+  color: black;
+}
+/* padding for buttons*/
+#sec2 {
+    padding-left: 630px;
+}
+
+/* buttons design*/
+#sec2 > a {
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    border-radius: 7%;
+    padding-top: 3px;
+
+    text-decoration: none;
+}
+
+/* hover feature for buttons */
+a:link {
+  font-size:17px;
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  font-size:17px;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+/* image background*/
+
+body, html {
+    /* The image used */
+    background-image: url("404girls_2.jpg");
+
+    /* Full height */
+    height: 100%;
+    margin: -5px;
+    /* Center and scale the image nicely */
+
+    /* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.timeline {
+  margin-top: -20px;
+  background-color: white;
+  opacity: 0.8;
+}
+
+#sec3 {
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+
+
+
+  /*padding for photo*/
+* {
+  box-sizing: border-box;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 505px;
+  padding-bottom: 30px;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  border-color: black;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+  text-decoration: none;
+}
+
+/* Place the container to the right */
+.right {
+  left: 60%;
+    text-decoration: none;
+}
+
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -145px;
+}
+
+/* The actual content */
+.content {
+  color: black;
+  background-color: lightgrey;
+  position: relative;
+  border-radius: 0%;
+  padding: 10px;
+  width: 350px;
+  height: 180px;
+  text-decoration: none;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+/* makes bios turn pink */
+.content:hover{
+    background-color: lightblue;
+    decoration: none;
+}
+
+/* moves the bio text header*/
+.content > h2 {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 0px;
+  padding-left: 0px;
+  decoration: none;
+}
+/* moves the bio text*/
+.content > p {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  font-size: 12px;
+  padding-left: 0px;
+  padding-bottom: 50px;
+  decoration: none;
+}
+/* moves the bio date */
+.left > h3 {
+  font-family: 'Roboto Mono', monospace;
+  padding-left: 400px;
+  font-size: 22px;
+  decoration: none;
+}
+/* moves the bio date */
+.right > h3 {
+  font-family: 'Roboto Mono', monospace;
+  margin-left: -95px;
+  padding-right: 20px;
+  font-size: 23px;
+  decoration: none;
+}
+/* website modo*/
+h4 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  color: black;
+  padding-left: 40px;
+  margin-left: 90;
+  margin-right: 980px;
+  margin-top: 0px;
+  text-align: center;
+
+}
+/*page large text description*/
+h5{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 0px;
+  padding-left: px;
+  margin-top:420px;
+}

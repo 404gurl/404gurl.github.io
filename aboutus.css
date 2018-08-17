@@ -1,0 +1,129 @@
+/* the girl in logo */
+h1 {
+ font-size: 15px;
+ font-family: 'Roboto Mono', monospace;
+ color: black;
+ padding-top: 25px;
+ padding-bottom: 0px;
+ padding-left: 50px;
+}
+/* the 404 in logo */
+span {
+  font-size: 40px;
+  color: black;
+}
+/* padding for buttons*/
+#sec2 {
+    padding-left: 620px;
+}
+
+/* buttons design*/
+#sec2 > a {
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    text-decoration: none;
+}
+
+/* hover feature for buttons */
+a:link {
+  font-size:17px;
+  color: black;
+}
+
+a:visited {
+  font-size:17px;
+  color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+/* website modo*/
+h5 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 500px;
+  text-align: center;
+  background:lightblue;
+
+
+}
+/* website modo*/
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
+  text-align: center;
+  background:lightblue;
+
+
+}
+h3{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
+  text-align: center;
+  background:lightblue;
+
+
+}
+h4 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
+  text-align: center;
+  background:lightblue;
+
+
+}
+.bios{
+  padding-bottom: 5px;
+  margin-top: 5px;
+  background-color: white;
+  opacity: 0.8;
+}
+/* image background*/
+body, html {
+    /* The image used */
+    background-image: url("https://lh3.googleusercontent.com/37fDtulK5JTXs3HQWq1DdJb6V6lXbo3AJue_6oofS1BwpLaopGEfl0NHV-qy-mtIt436MOcfRYlmCAUcbBpRswVsk4yZwln8bgxr5cAyckQ7ern5vBiEFfq62pX6W6op680U-eg1w9HKUGuh_NdPb8CVWE29TuGOGFwtMRei3QoVTWNAB32bsu1zGduXWcsqiD9jfhiZnixnUhZgPFFP5KczrsgqCwLFSaN0U35ek2Chy2foGdmBWq1kKcgw0Egf3usUpRUkxw7b1GUSvVPfJzblTNBFzi-gwDCS_wr4-p-kjcgffvi-xPWNVfAPYH2G439nUKFk6oVfBYXaps3gC5kq_7XlCqfVXRp2NIYu2wmZHN6EiRy2Mx2VQwmggtnxcgcVfVtfxY2ODGJT7M9HXffqBaWzk9AUQ3ivBawzw1HDWJVy6EKUDEhUewtxjQq1bCB3cFDQuxEMRjTmQ4YPczBLioTX4gq3jIFS30GGA8VUeHD_1JRPwP-zkxgh_eB37IwTHIEZ3Ytho540CIfu00TO4ATQgcRzQSBJWdl979zZGARmu22aK8oKirmYFng9cg9PSfyvBm44DBgadykvYGilf9rb-EWe5iy173B-3UZprWndSvqL_dE-MQUksdaEFsfw8Co7TZzSk8b2YkH6s09EU3Xp7h18=w1920-h816-no");
+    /* Full height */
+    height: 100%;
+    margin: -5px;
+    /* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}

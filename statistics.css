@@ -1,0 +1,167 @@
+/* the girl in logo */
+h1 {
+ font-size: 15px;
+ font-family: 'Roboto Mono', monospace;
+ color: black;
+ padding-top: 25px;
+ padding-bottom: 0px;
+ padding-left: 50px;
+}
+/* the 404 in logo */
+span {
+  font-size: 40px;
+  color: black ;
+}
+/* padding for buttons*/
+#sec2 {
+    padding-left: 620px;
+}
+
+/* buttons design*/
+#sec2 > a {
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    text-decoration: none;
+}
+
+/* hover feature for buttons */
+a:link {
+  font-size:17px;
+  color: black;
+}
+
+a:visited {
+  font-size:17px;
+  color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+/* image background*/
+body, html {
+    /* The image used */
+    background-image: url(" long-road-ahead-28jbd0o.jpg");
+    /* Full height */
+    height: 100%;
+    margin: -5px;
+    /* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallax {
+  margin-top: 250px;
+  padding-top: 0px;
+  background: white;
+  opacity: 0.8;
+}
+
+/* Bottom right text */
+.text-block > h4 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 140px;
+    margin-bottom: 0px;
+    margin-top:90px;
+}
+
+
+h5 {
+  padding-top: 20px;
+  /* margin-top: 50px; */
+}
+
+p1{
+  /* text-align: right; */
+  font-size: 30px;
+  color: black;
+  font-family: Arial;
+  /* margin-left: 450px; */
+  padding-left: 480px;
+  margin-top: 69px;
+  position:absolute;
+  text-align: left;
+}
+
+p2 {
+  padding-top: 10px;
+  /* text-align: right; */
+  font-size: 30px;
+  color: black;
+  font-family: Arial;
+  padding-left:60px;
+  padding right: 500px;
+  float: left;
+  text-align: left;
+  margin-right: 40px;
+
+  /* margin-left: 450px; */
+  /* margin-top: 50px; */
+}
+
+h6{
+  padding-left: 850px;
+  position:absolute;
+}
+
+.breakuppic > img {
+  width: 1300px;
+margin-top: 100px;
+}
+
+.row {
+  display: flex;
+  margin-top: 50px;
+}
+
+.colum {
+  flex: 33.33%
+  padding: 5px;
+  margin-left: 30px;
+}
+
+.colum p {
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial;
+}
+
+h3 {
+  text-align: left;
+}
+
+p6 {
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+}
+
+.WomenInTech {
+  display: flex;
+}
+
+.columtwo {
+flex: 40%;
+
+}
+
+.columthree {
+flex: 60%;
+display: flex;
+}
+
+p7 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial;
+  margin-left: 30px;
+  color: lightblue;
+
+}

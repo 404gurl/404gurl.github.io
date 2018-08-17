@@ -1,0 +1,331 @@
+#img1 {
+  max-width:100%;
+  max-height:100%;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img2 {
+  max-width:100%;
+  max-height:100%;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-top: auto;
+  padding: 40px;
+}
+
+#img3 {
+  max-width:100%;
+  max-height:100%;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#img4 {
+  max-width:100%;
+  max-height:100%;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#img5 {
+  max-width:100%;
+  max-height:100%;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+h2 {
+  display: block;
+  text-align: left;
+}
+
+h3 {
+  display: block;
+  text-align: cent;
+}
+/* the girl in logo */
+h1 {
+ font-size: 20px;
+ font-family: 'Roboto Mono', monospace;
+ color: white;
+ padding-top: 25px;
+ padding-bottom: 0px;
+ padding-left: 66px;
+}
+/* the 404 in logo */
+span {
+  font-size: 37px;
+  color: white;
+}
+/* padding for buttons*/
+#sec2 {
+    padding-left: 660px;
+}
+
+/* buttons design*/
+#sec2 > a {
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    border-radius: 7%;
+    padding-top: 3px;
+
+    text-decoration: none;
+}
+
+/* hover feature for buttons */
+a:link {
+  font-size:17px;
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  font-size:17px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+
+/* sizing images */
+.img {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.bios {
+  margin-top: 300px;
+  padding-bottom: 100px;
+  background-color: white;
+  opacity: 0.8;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 34%;
+    height: 300px;
+    padding: 40px;
+}
+
+.column2 {
+    float: left;
+    width: 66%;
+    height: 300px;
+    padding: 40px;
+}
+
+.column3 {
+    float: left;
+    width: 66%;
+    height: 300px;
+    padding: 40px;
+}
+
+.column4 {
+    float: left;
+    width: 34%;
+    height: 300px;
+    padding: 4
+    0px;
+}
+
+.column5 {
+    float: left;
+    width: 34%;
+    height: 300px;
+    padding: 40px;
+}
+
+.column6 {
+    float: left;
+    width: 66%;
+    height: 300px;
+    padding: 40px;
+}
+
+.column7 {
+    float: left;
+    width: 66%;
+    height: 300px;
+    padding: 40px;
+}
+
+.column8 {
+    float: left;
+    width: 34%;
+    height: 300px;
+    padding: 40px;
+}
+
+.column9 {
+    float: left;
+    width: 34%;
+    height: 300px;
+    padding: 40px;
+}
+
+.column10 {
+    float: left;
+    width: 66%;
+    height: 300px;
+    padding: 40px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* stuff for the input */
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+/* .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+} */
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/*text font for bios*/
+.column1 {
+      font-family: 'Roboto Mono', monospace;
+}
+.column2 {
+      font-family: 'Roboto Mono', monospace;
+}
+
+.column3 {
+      font-family: 'Roboto Mono', monospace;
+}
+.column4 {
+      font-family: 'Roboto Mono', monospace;
+}
+.column5 {
+      font-family: 'Roboto Mono', monospace;
+}
+
+.column6 {
+      font-family: 'Roboto Mono', monospace;
+}
+.column7 {
+      font-family: 'Roboto Mono', monospace;
+}
+.column8 {
+      font-family: 'Roboto Mono', monospace;
+}
+.column9 {
+      font-family: 'Roboto Mono', monospace;
+}
+.column10 {
+      font-family: 'Roboto Mono', monospace;
+}
+
+body, html {
+    /* The image used */
+    background-image: url("artsyOffice-1_banner.jpg");
+
+    /* Full height */
+    height: 100%;
+    margin: -5px;
+    /* Center and scale the image nicely */
+
+    /* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+/*page large text description*/
+h4{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 100px;
+  margin-bottom: 0px;
+  padding-left: px;
+  margin-top:150px;
+}
+/*page large text description*/
+h5{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 0px;
+  padding-left: px;
+  margin-top:180px;
+}
