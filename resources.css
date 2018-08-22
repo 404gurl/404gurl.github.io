@@ -16,7 +16,7 @@
 }
 .button2 {
   /* background-color: #E9967A; */
-  background: url(https://learntocodewith.me/wp-content/uploads/2014/11/black-girls-code.jpg) ;
+  background: url(black-girls-code.jpg) ;
   border: none;
   color: white;
   /* padding: 80px 161px; */
@@ -264,7 +264,7 @@ h4{
   font-size: 120px;
   margin-bottom: 0px;
   padding-left: 50px;
-  margin-top:180px;
+  margin-top:160px;
 }
 
 /*page large text description*/
@@ -282,6 +282,7 @@ a > button {
   vertical-align: top;
 }
 
+
 /* the 404 in logo */
 #logo {
   font-size: 40px;
@@ -290,6 +291,7 @@ a > button {
 /* padding for buttons*/
 #sec2 {
     padding-left: 620px;
+    margin-top: 0px;
 }
 
 /* buttons design*/
@@ -306,24 +308,26 @@ a > button {
 /* hover feature for buttons */
 a:link {
   font-size:17px;
-  color: black;
+  color: white;
+  text-decoration: none;
 }
 
 a:visited {
   font-size:17px;
-  color: black;
+  color: white;
+  text-decoration: none;
 }
 
 a:hover {
-    color: white;
+    color: black;
 }
 
 /* image background*/
 #div1
 body, html {
     /* The image used */
-   background-image: url("woman-hands-typing.jpg");
 
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('woman-hands-typing.jpg');
     /* Full height */
     height: 100%;
     margin: -5px;
@@ -335,7 +339,7 @@ background-size: cover;
 }
 
 .parallax {
-  margin-top: 305px;
+  margin-top: 90px;
   background-color: white;
   padding-top: 7px;
 }
@@ -375,3 +379,134 @@ background-size: cover;
 .bn:hover span#b {
   display: inline;
 }
+/*FOR THE BUTTONS LEARNING TO CODE */
+/*FOR THE BUTTONS LEARNING TO CODE */
+h5{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 30px;
+  background-color: grey;
+  opacity: 0.6;
+  color: white;
+font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+.button15 {
+  background: #20B2AA;
+  border: none;
+  color: white;
+  /* padding: 80px 300px; */
+  width: 700px;
+  height: 200px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button16 {
+  /* background-color: #E9967A; */
+  background-color: pink;
+  border: none;
+  color: white;
+  /* padding: 80px 161px; */
+  width:540px;
+  height:200px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button17 {
+  background-color: orange ;
+  border: none;
+  color: white;
+  /* padding: 80px 180px; */
+  width:600px;
+  height:200px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button18 {
+  background-color: #0000FF;
+  border: none;
+  color: white;
+  width:639px;
+  height:200px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button19 {
+  background-color: #9370DB;
+  border: none;
+  color: white;
+  /* padding: 80px 132px; */
+  width: 239px;
+  height:200px ;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button20 {
+  background: navy;
+  border: none;
+  color: white;
+  /* padding: 80px 160px; */
+  height:200px;
+  width: 500px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button21 {
+  background-color: #20B2AA;
+  border: none;
+  color: white;
+  /* padding: 80px 121px; */
+  width: 491px;
+  height: 200px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button15:hover {opacity: 1}
+.button16:hover {opacity: 1}
+.button17:hover {opacity: 1}
+.button18:hover {opacity: 1}
+.button19:hover {opacity: 1}
+.button20:hover {opacity: 1}
+.button21:hover {opacity: 1}

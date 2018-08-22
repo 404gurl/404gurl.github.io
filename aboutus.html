@@ -1,46 +1,144 @@
 <!DOCTYPE html>
 <html>
- <head>
 
-<!--link to css for homepage -->
-<link
-rel="stylesheet"
-href="aboutus.css">
-<script src="404girlhome.js"> </script>
+<head>
 
-<!--font for homepage -->
-<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-<script>
+<!-- link CSS and JavaScript -->
+  <link rel = "stylesheet" href = "aboutus.css">
+  <script src = "aboutus.js"></script>
+  <script src = "aboutus2.js"></script>
+  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"> -->
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+</head>
 
-</script>
- </head>
- <body>
+<body>
+  <div class= "header">
+    <span id= "logo">404</span> girl
+  </div>
 
-   <!--Header 404girl for homepage -->
-   <h1><span>404</span> girls</h1>
+  <p><button onclick="topFunction()" id="myBtn" title="Go to top">scroll up</button></p>
 
-<!--buttons for homepage -->
-   <div>
-   <p id = "sec2">
-     <a href = "index.html">home</a>
-     <a href = "aboutus.html">about us</a>
-     <a href = "resources.html">resources</a>
-     <a href = "statistics.html">statistics</a>
-     <a href = "statistics.html">wits</a>
-   </p>
-   </div>
-
-<!-- bios of us-->
-<div class="bios">
-     <h5>Elyse Becker: Elyse Becker is a homeschooled rising junior, schooling through online courses. She’s always been interested in tech & as the lead of electrical on her FIRST Robotics Team she fell in love with the technicalities of how hardware related to software. Always interested in music and photography, she recently began writing lyrical and instrumental music as well as pursuing more professional photography (landscape, senior portraits etc.). She loves soccer, and riflery adfasdgag
-</h5>
-
-<h2>Regan Toepel: Regan Toepel is a rising junior with an extreme love for soccer and computer science. Her parents and sister support her through her upcoming path to college. She balances athletics and academics as she attends the elite Seattle Preparatory school. Regan is the captain of her ECNL Crossfire soccer team and extremely proud to be apart of the National Honors Society as she dedicates lots of her time tutoring freshman and sophomores.
-</h2>
-<h3>Loza Gebremariam: Loza is a rising Junior at Ingraham High School. She participates in a range of clubs such as BSU, FCCLA, One World, and many more. She also takes on leadership roles as her class Vice President. In the fall, she will be associated as an IB Diploma Candidate. Loza hopes to continue her interest in computer science while applying her love for business and design throughout her career.
-</h4>
-<h4>Locksley Kolakowski: Locksley is a senior at Jackson High School and participates in full time Running Start at Cascadia College. She is a proud member of her high school's Principal's Honor Roll and her college's quarterly President's Honors and is on track to be her class' valedictorian. Locksley is a captain on her swim team, participates in volleyball, plays percussion in JHS’ Honors Wind Ensemble and is an avid programmer.</h4>
+<!-- links to other html files/pages -->
+<div>
+<p id = "sec2">
+  <a href = "index.html">home</a>
+  <a href = "aboutus.html">about us</a>
+  <a href = "resources.html">resources</a>
+  <a href = "statistics.html">statistics</a>
+  <a href = "wits.html">wits</a>
+</p>
 </div>
+  <!-- <a href = "text.html">name</a> -->
+<!-- <h2> <img src = "peach" style= "width:1000px" > </h2> -->
+  <div class="slideshow-container">
 
- </body>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade" id = "slide1">
+    <!-- <div class="numbertext">1 / 6</div> -->
+    <img src="girls.jpg" style="width:100%">
+    <!-- <div class="text">Caption Text</div> -->
+  </div>
+
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">2 / 6</div> -->
+    <img src="IMG_6414.jpg" style="width:100%">
+    <!-- <div class="text">Caption Two</div> -->
+  </div>
+
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">3 / 6</div> -->
+    <img src="IMG_6438.jpg" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+  </div>
+
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">4 / 6</div> -->
+    <img src="404girls.jpg" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+  </div>
+
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">5 / 6</div> -->
+    <img src="IMG_6540.jpg" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+
+
+</div>
+  </p>
+  </div>
+  <!-- bios of us-->
+  <div class="bios">
+    <div class="bio">
+      <h1>Elyse Becker</h1>
+    <div class="circular--landscape">
+      <img src="elyse.png" /></div>
+       <p>Elyse Becker is a homeschooled rising junior, schooling through
+           online courses. She’s always been interested in tech & as the lead of electrical
+           on her FIRST Robotics Team she fell in love with the technicalities of how
+           hardware related to software. Always interested in film, music, and photography,
+           she recently began writing lyrical and instrumental music as well as filming and
+           editing creative videos and pursuing more professional photography (landscape, senior portraits etc.).
+         </p>
+     </div>
+     <div class="bio">
+       <h1> Regan Toepel</h1>
+  <div class="circular--landscape2">
+    <img src="regan.jpg" /></div>
+  <p>Regan Toepel is a rising junior with an extreme love for soccer and computer science.
+     Her parents and sister support her through her upcoming path to college. She balances athletics
+     and academics as she attends the elite Seattle Preparatory school. Regan is the captain of her ECNL
+     Crossfire soccer team and extremely proud to be apart of the National Honors Society as she dedicates
+     lots of her time tutoring freshman and sophomores.
+  </p>
+</div>
+<div class="bio">
+  <h1> Loza Gebremariam </h1>
+  <div class="circular--landscape3">
+    <img src="loza.jpg" /></div>
+  <p>Loza Gebremariam is a rising junior at Ingraham High School. She participates in a range of
+      clubs such as BSU, NHS, One World, and many more. She also takes on leadership roles as her class
+      Vice President. In the fall, she will be associated as an IB Diploma Candidate. Loza hopes to continue
+      her interest in computer science while applying her love for business and design throughout her career.
+  </p>
+</div>
+<div class="bio">
+  <h1> Locksley Kolakowski </h1>
+  <div class="circular--landscape4">
+    <img src="locksley.jpg" /></div>
+  <p>Locksley Kolakowski is a senior at Jackson High School and participates in full time Running Start
+      at Cascadia College. She is a proud member of her high school's Principal's Honor Roll and her college's
+      quarterly President's Honors and is on track to be her class' valedictorian. Locksley is a captain on her swim team,
+      participates in volleyball, plays percussion in JHS’ Honors Wind Ensemble and is an avid programmer.</p>
+    </div>
+  </div>
+<h3>OUR STORY...</h3>
+<div class="your-centered-div">
+<embed src="girls who code edit 4.mp4" autostart="false" height="483px" width="860px" style = "margin-left: 200px"></div>
+<div class = "story"> <p>Elyse, Regan, Loza, and Locksley were inspired to create 404girls while
+    participating in the Girls who Code Summer Immersion Program at Adobe,
+    Seattle. Girls who Code is an organization dedicated to providing girls with
+    the coding skills and bravery necessary to pursue a tech career. 404girls’
+    builds off of this foundation by creating a platform where girls can hear from
+    women who have already succeeded in the tech field and connect them with opportunities,
+    programs, and internships where they can continue developing their coding skills.</p>
+  </div>
+</p>
+<!-- <img id = "gwc" src = "girlswhocode.png"> -->
+</body>
+
 </html>

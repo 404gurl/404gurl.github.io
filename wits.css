@@ -1,50 +1,32 @@
 #img1 {
-  max-width:100%;
-  max-height:100%;
+  height: 300px;
   display: grid;
-  margin-left: auto;
-  margin-right: auto;
+  margin:auto;
 }
 
 #img2 {
-  max-width:100%;
-  max-height:100%;
+  height: 300px;
   display: grid;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-top: auto;
-  padding: 40px;
+  margin: auto;
 }
 
 #img3 {
-  max-width:100%;
-  max-height:100%;
+  height: 300px;
   display: grid;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto;
+
 }
 
 #img4 {
-  max-width:100%;
-  max-height:100%;
+  height: 300px;
   display: grid;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto;
 }
 
 #img5 {
-  max-width:100%;
-  max-height:100%;
+  height: 300px;
   display: grid;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto;
 }
 
 h2 {
@@ -54,145 +36,75 @@ h2 {
 
 h3 {
   display: block;
-  text-align: cent;
-}
-/* the girl in logo */
-h1 {
- font-size: 20px;
- font-family: 'Roboto Mono', monospace;
- color: white;
- padding-top: 25px;
- padding-bottom: 0px;
- padding-left: 66px;
-}
-/* the 404 in logo */
-span {
-  font-size: 37px;
-  color: white;
-}
-/* padding for buttons*/
-#sec2 {
-    padding-left: 660px;
+  text-align: center;
 }
 
-/* buttons design*/
-#sec2 > a {
-    font-size: 15px;
-    font-family: 'Roboto Mono', monospace;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 5px;
-    border-radius: 7%;
-    padding-top: 3px;
-
-    text-decoration: none;
-}
-
-/* hover feature for buttons */
-a:link {
-  font-size:17px;
-  color: white;
-  text-decoration: none;
-}
-
-a:visited {
-  font-size:17px;
-  color: white;
-  text-decoration: none;
-}
-
-a:hover {
-    color: white;
-}
-
-
-/* sizing images */
-.img {
-    position: relative;
-    float: left;
-    width:  100px;
-    height: 100px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-}
 
 .bios {
-  margin-top: 300px;
+  margin-top: 170px;
   padding-bottom: 100px;
   background-color: white;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 /* Create two equal columns that floats next to each other */
 .column1 {
     float: left;
     width: 34%;
-    height: 300px;
     padding: 40px;
 }
 
 .column2 {
     float: left;
     width: 66%;
-    height: 300px;
     padding: 40px;
 }
 
 .column3 {
     float: left;
     width: 66%;
-    height: 300px;
     padding: 40px;
 }
 
 .column4 {
     float: left;
     width: 34%;
-    height: 300px;
-    padding: 4
-    0px;
+    padding: 40px;
 }
 
 .column5 {
     float: left;
     width: 34%;
-    height: 300px;
     padding: 40px;
 }
 
 .column6 {
     float: left;
     width: 66%;
-    height: 300px;
     padding: 40px;
 }
 
 .column7 {
     float: left;
     width: 66%;
-    height: 300px;
     padding: 40px;
 }
 
 .column8 {
     float: left;
     width: 34%;
-    height: 300px;
     padding: 40px;
 }
 
 .column9 {
     float: left;
     width: 34%;
-    height: 300px;
     padding: 40px;
 }
 
 .column10 {
     float: left;
     width: 66%;
-    height: 300px;
     padding: 40px;
 }
 
@@ -262,42 +174,225 @@ input[type=submit]:hover {
 
 /*text font for bios*/
 .column1 {
-      font-family: 'Roboto Mono', monospace;
+font-family: 'Lato', sans-serif;
+
 }
 .column2 {
-      font-family: 'Roboto Mono', monospace;
+font-family: 'Lato', sans-serif;
 }
 
 .column3 {
-      font-family: 'Roboto Mono', monospace;
+font-family: 'Lato', sans-serif;
 }
 .column4 {
-      font-family: 'Roboto Mono', monospace;
+font-family: 'Lato', sans-serif;
 }
 .column5 {
-      font-family: 'Roboto Mono', monospace;
+font-family: 'Lato', sans-serif;
 }
 
 .column6 {
-      font-family: 'Roboto Mono', monospace;
+font-family: 'Lato', sans-serif;
 }
 .column7 {
-      font-family: 'Roboto Mono', monospace;
+font-family: 'Lato', sans-serif;
 }
 .column8 {
-      font-family: 'Roboto Mono', monospace;
+font-family: 'Lato', sans-serif;
 }
 .column9 {
-      font-family: 'Roboto Mono', monospace;
+font-family: 'Lato', sans-serif;
 }
 .column10 {
-      font-family: 'Roboto Mono', monospace;
+font-family: 'Lato', sans-serif;
+}
+
+/* create the fade out text on each column */
+.column1 {
+      position: relative;
+      overflow: hidden;
+}
+.column2 {
+      /* max-height: 300px; */
+      position: relative;
+      overflow: hidden;
+}
+
+.class1 {
+  color: white
+}
+
+.read-more .button{
+  text-align: center;
+  color: black;
+}
+
+
+.read-less .button{
+  text-align:center;
+  color: black;
+}
+
+.formInfo {
+  max-height: 135px;
+  margin-bottom: 150px;
+}
+
+.column2 .read-more {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      margin: 0; padding: 30px 0;
+
+      background-image: linear-gradient(to bottom, transparent, white);
+}
+
+.column3 {
+
+      position: relative;
+      overflow: hidden;
+}
+
+.column3 .read-more {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      margin: 0; padding: 30px 0;
+
+      background-image: linear-gradient(to bottom, transparent, white);
+}
+
+.column5 {
+
+      position: relative;
+      overflow: hidden;
+}
+
+.column5 .read-more {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      margin: 0; padding: 30px 0;
+
+      background-image: linear-gradient(to bottom, transparent, white);
+}
+
+.column6 {
+
+      position: relative;
+      overflow: hidden;
+}
+
+.column6 .read-more {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      margin: 0; padding: 30px 0;
+
+      background-image: linear-gradient(to bottom, transparent, white);
+}
+
+.column7 {
+
+      position: relative;
+      overflow: hidden;
+}
+
+.column7 .read-more {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      margin: 0; padding: 30px 0;
+
+      background-image: linear-gradient(to bottom, transparent, white);
+}
+
+.column10 {
+
+      position: relative;
+      overflow: hidden;
+}
+
+.column10 .read-more {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      margin: 0; padding: 30px 0;
+
+      background-image: linear-gradient(to bottom, transparent, white);
+}
+
+
+/* .formInfo {
+    /* "transparent" only works here because == rgba(0,0,0,0) */
+    /* text: linear-gradient(to bottom, black, white); */
+/* } */
+
+/* the girl in logo */
+.header {
+ font-size: 15px;
+ font-family: 'Roboto Mono', monospace;
+ color: white;
+ padding-top: 39px;
+ padding-bottom: 0px;
+ padding-right: 1000px;
+ padding-left: 0px;
+}
+
+/* the 404 in logo */
+#logo {
+  padding-top: 80px;
+  padding-left: 85px;
+  font-size: 40px;
+  color: white;
+}
+/* padding for buttons*/
+#sec2 {
+      margin-top: 25px;
+    padding-left: 674px;
+}
+
+/* buttons design*/
+#sec2 > a {
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 290px;
+    text-decoration: none;
+}
+/* hover feature for buttons */
+a:link {
+  font-size:17px;
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  font-size:17px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+    color: white;
 }
 
 body, html {
     /* The image used */
-    background-image: url("artsyOffice-1_banner.jpg");
-
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('artsyOffice-1_banner.jpg');
     /* Full height */
     height: 100%;
     margin: -5px;
@@ -314,18 +409,8 @@ h4{
   text-align: center;
   font-family: 'Roboto Mono', monospace;
   color: white;
-  font-size: 100px;
+  font-size: 90px;
   margin-bottom: 0px;
   padding-left: px;
-  margin-top:150px;
-}
-/*page large text description*/
-h5{
-  text-align: center;
-  font-family: 'Roboto Mono', monospace;
-  color: white;
-  font-size: 15px;
-  margin-bottom: 0px;
-  padding-left: px;
-  margin-top:180px;
+  margin-top:110px;
 }

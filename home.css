@@ -1,0 +1,73 @@
+body {
+ background-color: white;
+}
+
+
+h1 {
+ font-size: 50px;
+ text-align: center;
+ font-family: 'Oswald', sans-serif;
+ color: pink;
+ padding-top: 20px;
+ padding-bottom: 0px;
+}
+
+
+h2{
+  padding-top: 20px;
+  padding-left: 170px;
+}
+
+
+h3{
+  padding-top: 5px;
+  padding-left: 170px;
+}
+
+h4{
+  padding-top: 5px;
+  padding-right: 20;
+  padding-left: 170px;
+}
+
+h5{
+
+}
+
+h6{
+
+ }
+
+
+
+#sec1{
+
+}
+
+#sec2 {
+   text-align: center; color: pink; font-size: 60;
+}
+
+#sec2 > a {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+
+}
+
+a:link {
+  font-size:17px;
+  color: grey;
+}
+
+a:visited {
+  font-size:17px;
+  color: grey;
+}
+
+a:hover {
+    color: black;
+}

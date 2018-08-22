@@ -1,51 +1,79 @@
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 11px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: black; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 6px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
 /* the girl in logo */
-h1 {
+.header {
  font-size: 15px;
  font-family: 'Roboto Mono', monospace;
- color: black;
- padding-top: 25px;
+ color: white;
+ padding-top: 39px;
  padding-bottom: 0px;
- padding-left: 50px;
+ padding-right: 1000px;
+ padding-left: 0px;
 }
+
 /* the 404 in logo */
-span {
+#logo {
+  padding-top: 80px;
+  padding-left: 85px;
   font-size: 40px;
-  color: black ;
+  color: white;
 }
 /* padding for buttons*/
 #sec2 {
-    padding-left: 620px;
+      margin-top: 31px;
+    padding-left: 674px;
 }
 
 /* buttons design*/
 #sec2 > a {
-    font-size: 15px;
+    font-size: 16.5px;
     font-family: 'Roboto Mono', monospace;
     padding-left: 25px;
     padding-right: 25px;
-    padding-bottom: 50px;
+    margin-top: 290px;
     text-decoration: none;
 }
+
 
 /* hover feature for buttons */
 a:link {
   font-size:17px;
-  color: black;
+  color: white;
+  text-decoration: none;
 }
 
 a:visited {
   font-size:17px;
-  color: black;
+  color: white;
+  text-decoration: none;
 }
 
 a:hover {
-    color: white;
+    color: black;
 }
 
 /* image background*/
 body, html {
     /* The image used */
-    background-image: url(" long-road-ahead-28jbd0o.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('long-road-ahead-28jbd0o.jpg');
     /* Full height */
     height: 100%;
     margin: -5px;
@@ -57,7 +85,7 @@ background-size: cover;
 }
 
 .parallax {
-  margin-top: 250px;
+  margin-top: 110px;
   padding-top: 0px;
   background: white;
   opacity: 0.8;
@@ -70,7 +98,7 @@ background-size: cover;
     color: white;
     font-size: 140px;
     margin-bottom: 0px;
-    margin-top:90px;
+    margin-top:60px;
 }
 
 
@@ -141,6 +169,7 @@ h3 {
 p6 {
   font-family: 'Lobster', cursive;
   font-size: 60px;
+  text-align: center;
 }
 
 .WomenInTech {
@@ -154,14 +183,140 @@ flex: 40%;
 
 .columthree {
 flex: 60%;
-display: flex;
 }
 
 p7 {
-  text-align: center;
+  text-align: right;
   font-size: 50px;
   font-family: Arial;
   margin-left: 30px;
   color: lightblue;
+  padding-bottom: 10px;
+}
 
+.bargraph {
+padding-top: 50px;
+padding-right: 40px;
+}
+
+.bargraph img {
+  margin-top: 30px;
+  margin-bottom: 140px;
+}
+
+p8 {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  font-family: Arial;
+  text-align: center;
+  font-size: 25px;
+  color: grey;
+}
+
+.tech {
+margin-left: 30px;
+}
+
+
+p10 {
+  font-size: 40px;
+  font-family: Arial;
+  padding-left: 95px;
+  color: silver;
+}
+
+p11 {
+  font-size: 40px;
+  font-family: Arial;
+  padding-left: 150px;
+  color: darkgray;
+}
+
+p12 {
+  font-size: 60px;
+  font-family: Arial;
+  padding-left: 90px;
+  color: gray;
+}
+
+p13 {
+  font-size: 60px;
+  font-family: Arial;
+  padding-left: 90px;
+  color: dimgray;
+}
+p14 {
+  font-size: 40px;
+  font-family: Arial;
+  padding-left: 35px;
+  color: dimgray;
+  padding-bottom: 70px;
+}
+
+.bachelors {
+  margin-top: 60px;
+  padding-top: 40px;
+}
+
+.hair {
+padding-top: 50px;
+padding-left: 100px;
+}
+
+p16 {
+padding-left: 60px;
+padding-top: 30px;
+font size: 20px;
+font-family: Arial;
+color: gray;
+}
+
+p17 {
+  padding-left: 40px;
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+  color: black;
+}
+
+p18 {
+  padding-left: 120px;
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+  color: black;
+}
+
+p19 {
+  padding-left: 40px;
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+  color: black;
+}
+
+p20 {
+  padding-left: 40px;
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+  color: black;
+}
+
+p21{
+  padding-left: 40px;
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+  color: black;
+}
+
+p22{
+  padding-left: 40px;
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+  color: black;
+}
+.capture {
+  margin-bottom: 50px;
+}
+
+.insecure {
+  padding-left: 150px;
 }

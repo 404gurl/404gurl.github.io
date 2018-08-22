@@ -1,16 +1,20 @@
 /* the girl in logo */
-h1 {
+.header {
  font-size: 15px;
  font-family: 'Roboto Mono', monospace;
- color: black;
- padding-top: 25px;
+ color: white;
+ padding-top: 20px;
  padding-bottom: 0px;
- padding-left: 50px;
+ padding-right: 1000px;
+ padding-left: 0px;
 }
+
 /* the 404 in logo */
-span {
+#logo {
+  padding-top: 80px;
+  padding-left: 70px;
   font-size: 40px;
-  color: black;
+  color: white;
 }
 /* padding for buttons*/
 #sec2 {
@@ -30,16 +34,16 @@ span {
 /* hover feature for buttons */
 a:link {
   font-size:17px;
-  color: black;
+  color: white;
 }
 
 a:visited {
   font-size:17px;
-  color: black;
+  color: white;
 }
 
 a:hover {
-    color: white;
+    color: black;
 }
 
 /* website modo*/
@@ -55,7 +59,7 @@ h5 {
   margin-right: 200px;
   margin-top: 500px;
   text-align: center;
-  background:lightblue;
+  background:white;
 
 
 }
@@ -72,7 +76,7 @@ h2 {
   margin-right: 200px;
   margin-top: 30px;
   text-align: center;
-  background:lightblue;
+  background:white;
 
 
 }
@@ -88,7 +92,7 @@ h3{
   margin-right: 200px;
   margin-top: 30px;
   text-align: center;
-  background:lightblue;
+  background:white;
 
 
 }
@@ -111,13 +115,271 @@ h4 {
 .bios{
   padding-bottom: 5px;
   margin-top: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
   background-color: white;
   opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-/* image background*/
+
+.bio {
+  width: 25%;
+  height: auto;
+  margin-top: 20px;
+}
+/* elyse */
+
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 45px;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -25%;
+
+}
+h2 {
+  padding: 30px 50px;
+  margin-left: 56px;
+  margin-right: 60px;
+}
+h3 {
+  padding: 40px;
+}
+#gwc{
+  height: 90px;
+
+}
+/* regan */
+.circular--landscape2 {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 45px;
+}
+
+.circular--landscape2 img {
+  width: auto;
+  height: 100%;
+  margin-left: -25%;
+
+}
+/*loza  */
+.circular--landscape3 {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 45px;
+}
+
+.circular--landscape3 img {
+  width: auto;
+  height: 100%;
+  margin-left: -25%;
+
+}
+/* locksley */
+.circular--landscape4 {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 45px;
+}
+
+.circular--landscape4 img {
+  width: auto;
+  height: 100%;
+  margin-left: -25%;
+}
+
+h3{
+  font-family: Lato;
+  font-size:80px;
+  color:MediumSeaGreen
+}
+
+.bio p {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 250px;
+  font-family: Lato;
+  font-size: 15px;
+  text-align: center;
+}
+.story {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Lato;
+  font-size: 20px;
+  text-align: center;
+  background: lightgrey;
+  opacity: 0.8;
+  margin-top: 100;
+  padding-top: 1px;
+  padding-bottom: 20px;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  padding-top: 20px;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/6 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+#slide1 {
+  display: block;
+}
+.centered-thing {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p {
+  color: black;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: MediumSeaGreen; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 15px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color:lightpink ; /* Add a dark-grey background on hover */
+}
+
+.bio h1 {
+  font-family: Lato ;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 45px;
+}
+
 body, html {
     /* The image used */
-    background-image: url("https://lh3.googleusercontent.com/37fDtulK5JTXs3HQWq1DdJb6V6lXbo3AJue_6oofS1BwpLaopGEfl0NHV-qy-mtIt436MOcfRYlmCAUcbBpRswVsk4yZwln8bgxr5cAyckQ7ern5vBiEFfq62pX6W6op680U-eg1w9HKUGuh_NdPb8CVWE29TuGOGFwtMRei3QoVTWNAB32bsu1zGduXWcsqiD9jfhiZnixnUhZgPFFP5KczrsgqCwLFSaN0U35ek2Chy2foGdmBWq1kKcgw0Egf3usUpRUkxw7b1GUSvVPfJzblTNBFzi-gwDCS_wr4-p-kjcgffvi-xPWNVfAPYH2G439nUKFk6oVfBYXaps3gC5kq_7XlCqfVXRp2NIYu2wmZHN6EiRy2Mx2VQwmggtnxcgcVfVtfxY2ODGJT7M9HXffqBaWzk9AUQ3ivBawzw1HDWJVy6EKUDEhUewtxjQq1bCB3cFDQuxEMRjTmQ4YPczBLioTX4gq3jIFS30GGA8VUeHD_1JRPwP-zkxgh_eB37IwTHIEZ3Ytho540CIfu00TO4ATQgcRzQSBJWdl979zZGARmu22aK8oKirmYFng9cg9PSfyvBm44DBgadykvYGilf9rb-EWe5iy173B-3UZprWndSvqL_dE-MQUksdaEFsfw8Co7TZzSk8b2YkH6s09EU3Xp7h18=w1920-h816-no");
+
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('seattle.jpg');
     /* Full height */
     height: 100%;
     margin: -5px;

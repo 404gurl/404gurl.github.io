@@ -1,58 +1,8 @@
-/* the girl in logo */
-h1 {
- font-size: 20px;
- font-family: 'Roboto Mono', monospace;
- color: black;
- padding-top: 25px;
- padding-bottom: 0px;
- padding-left: 66px;
-}
-/* the 404 in logo */
-span {
-  font-size: 37px;
-  color: black;
-}
-/* padding for buttons*/
-#sec2 {
-    padding-left: 630px;
-}
-
-/* buttons design*/
-#sec2 > a {
-    font-size: 15px;
-    font-family: 'Roboto Mono', monospace;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 5px;
-    border-radius: 7%;
-    padding-top: 3px;
-
-    text-decoration: none;
-}
-
-/* hover feature for buttons */
-a:link {
-  font-size:17px;
-  color: black;
-  text-decoration: none;
-}
-
-a:visited {
-  font-size:17px;
-  color: black;
-  text-decoration: none;
-}
-
-a:hover {
-    color: white;
-}
-
 /* image background*/
 
 body, html {
     /* The image used */
-    background-image: url("404girls_2.jpg");
-
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('robowom.jpg');
     /* Full height */
     height: 100%;
     margin: -5px;
@@ -65,11 +15,70 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-.timeline {
-  margin-top: -20px;
+/* the girl in logo */
+.header {
+ font-size: 15px;
+ font-family: 'Roboto Mono', monospace;
+ color: white;
+ padding-top: 39px;
+ padding-bottom: 0px;
+ padding-right: 1000px;
+ padding-left: 0px;
+}
+
+/* the 404 in logo */
+#logo {
+  padding-top: 80px;
+  padding-left: 85px;
+  font-size: 40px;
+  color: white;
+}
+/* padding for buttons*/
+#sec2 {
+      margin-top: 25px;
+    padding-left: 674px;
+}
+
+/* buttons design*/
+#sec2 > a {
+    font-size: 15px;
+font-family: 'Lato', sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 290px;
+    text-decoration: none;
+}
+
+/* hover feature for buttons */
+a:link {
+  font-size:17px;
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  font-size:17px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+
+/* .timeline {
+  margin-top: -200px;
   background-color: white;
   opacity: 0.8;
-}
+} */
+/*
+.parallax {
+  margin-top: 300px;
+  padding-top: 0px;
+  background: white;
+  opacity: 0.8;
+} */
 
 #sec3 {
     padding-top: 20px;
@@ -86,10 +95,12 @@ background-size: cover;
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
+  background-color: white;
+  opacity: 0.8;
   position: relative;
   max-width: 1400px;
   margin: 0 auto;
-  margin-top: 505px;
+  margin-top: 0px;
   padding-bottom: 30px;
 }
 
@@ -190,7 +201,7 @@ background-size: cover;
 
 /* moves the bio text header*/
 .content > h2 {
-  font-family: 'Roboto Mono', monospace;
+font-family: 'Lato', sans-serif;
   text-align: center;
   font-size: 15px;
   padding-top: 0px;
@@ -199,23 +210,23 @@ background-size: cover;
 }
 /* moves the bio text*/
 .content > p {
-  font-family: 'Roboto Mono', monospace;
+font-family: 'Lato', sans-serif;
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
   padding-left: 0px;
   padding-bottom: 50px;
   decoration: none;
 }
 /* moves the bio date */
 .left > h3 {
-  font-family: 'Roboto Mono', monospace;
+font-family: 'Lato', sans-serif;
   padding-left: 400px;
   font-size: 22px;
   decoration: none;
 }
 /* moves the bio date */
 .right > h3 {
-  font-family: 'Roboto Mono', monospace;
+font-family: 'Lato', sans-serif;
   margin-left: -95px;
   padding-right: 20px;
   font-size: 23px;
@@ -223,23 +234,39 @@ background-size: cover;
 }
 /* website modo*/
 h4 {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 12px;
-  color: black;
-  padding-left: 40px;
-  margin-left: 90;
-  margin-right: 980px;
-  margin-top: 0px;
+ font-family: 'Roboto Mono', monospace;
+  font-size: 100px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top:115px;
+  border-radius: 1px;
   text-align: center;
 
 }
-/*page large text description*/
-h5{
-  text-align: center;
-  font-family: 'Roboto Mono', monospace;
-  color: white;
-  font-size: 15px;
-  margin-bottom: 0px;
-  padding-left: px;
-  margin-top:420px;
+
+/*scroll to top button*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 11px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: black; /* Set a background color */
+    opacity: 0.7;
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 6px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
 }
