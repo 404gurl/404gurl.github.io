@@ -389,3 +389,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+
+iframe {
+padding-left: 300px;
+}
